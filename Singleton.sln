@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buileder", "Console\Builede
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Director", "Console\Director\Director.csproj", "{5797DD28-10A1-41A0-AD26-568E499A7419}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattem", "AdapterPattem", "{0B1C9E49-002E-4C1F-B0C6-CD25FD17269E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterProgrom", "AdapterPattem\AdapterProgrom\AdapterProgrom.csproj", "{A8633F6E-2882-464E-8568-B17478E20AA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,10 @@ Global
 		{5797DD28-10A1-41A0-AD26-568E499A7419}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5797DD28-10A1-41A0-AD26-568E499A7419}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5797DD28-10A1-41A0-AD26-568E499A7419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8633F6E-2882-464E-8568-B17478E20AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8633F6E-2882-464E-8568-B17478E20AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8633F6E-2882-464E-8568-B17478E20AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8633F6E-2882-464E-8568-B17478E20AA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,5 +87,6 @@ Global
 		{ECE87A4C-4DA7-46C0-9194-61698F72623E} = {B4CA0EC9-89F6-4495-85D9-5D4140C4C03A}
 		{EC338FBE-15BC-485B-8965-E1A998B7D592} = {B4CA0EC9-89F6-4495-85D9-5D4140C4C03A}
 		{5797DD28-10A1-41A0-AD26-568E499A7419} = {B4CA0EC9-89F6-4495-85D9-5D4140C4C03A}
+		{A8633F6E-2882-464E-8568-B17478E20AA2} = {0B1C9E49-002E-4C1F-B0C6-CD25FD17269E}
 	EndGlobalSection
 EndGlobal
